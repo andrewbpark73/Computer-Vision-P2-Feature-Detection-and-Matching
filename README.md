@@ -140,17 +140,18 @@ The `CustomFeatureDescriptor` class is located in the [features_scale_invariant.
 
 ROC curve and AUC by our custom SIFT algorithm (Yosemite dataset)
 
-|  SIFT with Ratio (Threshold: $10^{-2}$) | SIFT with Ratio (Threshold: $10^{-2.5}$) <br /> - Highest Performance - |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-|  Result: Avg Distance: 236, Avg AUC: 0.9830 | Result: Avg Distance: 219, Avg AUC: 0.9869 |
-| <img src="results/SIFTwithRatio-1.jpg" height="400px">  | <img src="results/SIFTwithRatio-2.jpg" height="400px">  |
+SIFT with Ratio (Threshold: $10^{-2}$): Avg Distance: 236, Avg AUC: 0.9830
+
+<img src="results/SIFTwithRatio-1.jpg" height="400px"> <br />
+
+SIFT with Ratio (Threshold: $10^{-2.5}$): Avg Distance: 219, Avg AUC: 0.9869 &rarr; **Highest Performance**
+
+<img src="results/SIFTwithRatio-2.jpg" height="400px">
 
 #### Matched features
 
-Yosemite dataset Feature Matching with Custom Descriptor (Threshold: $10^{-2.5}$) (4.9%)
-Result: 2004 matches
+Yosemite dataset Feature Matching with Custom Descriptor (Threshold: $10^{-2.5}$) (4.9%): 2004 matches
 <img src="results/sift_matched_features.jpg">  <br />  
 
-Custom Image Feature Matching with Custom Descriptor (Threshold: $10^{-2.5}$) (23.6%)
-Result: 141 matches
+Custom Image Feature Matching with Custom Descriptor (Threshold: $10^{-2.5}$) (23.6%): 141 matches
 <img src="results/sift_custom_matched_features.jpg">
