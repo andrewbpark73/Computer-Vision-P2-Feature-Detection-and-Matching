@@ -1,4 +1,4 @@
-# CS5670 Computer Vision Projects and Artifacts
+# CS5670 Computer Vision
 
 ## Project 2: Feature Detection & Matching 
 
