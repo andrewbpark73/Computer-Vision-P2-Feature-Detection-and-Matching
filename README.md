@@ -151,7 +151,9 @@ SIFT with Ratio (Threshold: $10^{-2.5}$): Avg Distance: 219, Avg AUC: 0.9869 &ra
 #### Matched features
 
 Yosemite dataset Feature Matching with Custom Descriptor (Threshold: $10^{-2.5}$) (4.9%): 2004 matches
+
 <img src="results/sift_matched_features.jpg">  <br />  
 
 Custom Image Feature Matching with Custom Descriptor (Threshold: $10^{-2.5}$) (23.6%): 141 matches
+
 <img src="results/sift_custom_matched_features.jpg">
